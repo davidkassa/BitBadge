@@ -1,0 +1,7 @@
+}
+  "name": "Streak Tier 1 Badge",
+  "description": "You spend coin 2 days in a row.",
+  "image": "http://bitbadge.herokuapp.com/images/streakTier1.png",
+  "criteria": "http://bitbadge.herokuapp.com/badges/streakTier1/criteria.txt",
+  "issuer": "http://bitbadge.herokuapp.com/badges/issuer.json"
+}

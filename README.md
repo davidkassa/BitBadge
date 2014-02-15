@@ -2,4 +2,5 @@ BitBadge
 ========
 
 Badging platform for Bitcoins
-test
+
+Created at Madworks Cryptocurrency Hackathon
