@@ -1,0 +1,7 @@
+{
+  "name": "Earned Tier 1 Badge",
+  "description": "You earned this badge for receiving a total of 1 satoshi.",
+  "image": "http://bitbadge.herokuapp.com/images/earnedTier1.png",
+  "criteria": "http://bitbadge.herokuapp.com/badges/earnedTier1/criteria.txt",
+  "issuer": "http://bitbadge.herokuapp.com/badges/issuer.json"
+}
