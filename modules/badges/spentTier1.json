@@ -1,0 +1,7 @@
+}
+  "name": "Spent Tier 1 Badge",
+  "description": "You spent 1 Satoshi.",
+  "image": "http://bitbadge.herokuapp.com/images/spentTier1.png",
+  "criteria": "http://bitbadge.herokuapp.com/badges/spentTier1/criteria.txt",
+  "issuer": "http://bitbadge.herokuapp.com/badges/issuer.json"
+}

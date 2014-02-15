@@ -1,0 +1,7 @@
+}
+  "name": "Spent Tier 3 Badge",
+  "description": "You spent 1 Bitcoin.",
+  "image": "http://bitbadge.herokuapp.com/images/spentTier3.png",
+  "criteria": "http://bitbadge.herokuapp.com/badges/spentTier3/criteria.txt",
+  "issuer": "http://bitbadge.herokuapp.com/badges/issuer.json"
+}
