@@ -6,9 +6,9 @@
     "identity": "caroline.hardin@doit.wisc.edu"
   },
   "issuedOn": "2014-02-15T20:23:03.900Z",
-  "badge": "http://bitbadge.herokuapp.com/modules/badges/BitBadgeClass.json",
+  "badge": "http://bitbadge.herokuapp.com/badges/BitBadgeClass.json",
   "verify": {
     "type": "hosted",
-    "url": "http://bitbadge.herokuapp.com/modules/badges/1.json"
+    "url": "http://bitbadge.herokuapp.com/badges/1.json"
   }
 }
