@@ -1,0 +1,14 @@
+{
+  "uid": "74106#1",
+  "recipient": {
+    "type": "email",
+    "hashed": false,
+    "identity": "caroline.hardin@doit.wisc.edu"
+  },
+  "issuedOn": "2014-02-15T20:23:03.900Z",
+  "badge": "http://badgelab.herokuapp.com/74106/class.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://badgelab.herokuapp.com/74106/1.json"
+  }
+}
