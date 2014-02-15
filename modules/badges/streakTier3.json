@@ -1,0 +1,7 @@
+}
+  "name": "Streak Tier 3 Badge",
+  "description": "You spend coin 15 days in a row.",
+  "image": "http://bitbadge.herokuapp.com/images/streakTier3.png",
+  "criteria": "http://bitbadge.herokuapp.com/badges/streakTier3/criteria.txt",
+  "issuer": "http://bitbadge.herokuapp.com/badges/issuer.json"
+}
