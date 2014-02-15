@@ -1,4 +1,7 @@
 // app/routes.js
+var blockchain = require('../modules/blockChainRequester.js');
+
+
 module.exports = function(app, passport) {
 
 
@@ -65,6 +68,21 @@ module.exports = function(app, passport) {
 		var address = req.param('bitcoin-address');
 		req.user.local.address =address;
 		req.user.save();
+		// TODO add welcome badge
+		blockchain.getTotalSent(address, function (totalSent) {
+			if(totalSent > 00000001) {
+				//TODO create badge
+				console.log('sent some');
+			}
+		});
+
+		blockchain.getTotalReceived(address, function (totalReceieved) {
+			if(totalReceieved > 00000001) {
+				//TODO create badge
+				console.log('received some');
+			}
+		});
+
 		res.render('profile.ejs', {
 			user : req.user // get the user out of session and pass to template
 		});
