@@ -1,7 +1,11 @@
 {
   "name": "BitBadge Badge",
   "description": "Welcome to BitBadge",
+<<<<<<< HEAD
+  "image": "http://bitbadge.herokuapp.com/badges/welcomeBanner/welcomeBanner.png",
+=======
   "image": "http://bitbadge.herokuapp.com/images/welcomeBanner.png",
+>>>>>>> 28aaae1cb3d579fb598ce84a8bf5ba4cb8bb57f4
   "criteria": "http://bitbadge.herokuapp.com/badges/welcomeBanner/criteria.txt",
   "issuer": "http://bitbadge.herokuapp.com/badges/issuer.json"
 }
