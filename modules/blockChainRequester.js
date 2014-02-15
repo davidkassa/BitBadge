@@ -40,6 +40,6 @@ client.on('connect', function(connection) {
     sendNumber();
 });
     
-   client.connect('ws://ws.blockchain.info:8335/inv', 'echo-protocol'); 
+   client.connect('ws://ws.blockchain.info:8335/inv', 'echo-protocol');
   
 };
