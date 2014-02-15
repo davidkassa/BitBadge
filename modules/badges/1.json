@@ -9,6 +9,6 @@
   "badge": "http://bitbadge.herokuapp.com/modules/badges/BitBadgeClass.json",
   "verify": {
     "type": "hosted",
-    "url": "http://bitbadge.herokuapp.com/modules/badges/modules/badges/issueThisBadge.json"
+    "url": "http://bitbadge.herokuapp.com/modules/badges/modules/badges/1.json"
   }
 }
