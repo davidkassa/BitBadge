@@ -7,6 +7,12 @@
   },
   "dependencies": {
     "express": "3.4.8",
-    "jade": "*"
+    "jade": "*",
+    "passport": "~0.2.0",
+    "mongoose": "~3.8.7",
+    "passport-local": "~0.1.6",
+    "ejs": "~0.8.5",
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash": "~0.1.1"
   }
 }
