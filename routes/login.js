@@ -64,7 +64,7 @@ module.exports = function(app, passport) {
 		failureFlash : true // allow flash messages
 	}));
 
-	app.post('/add-address', isLoggedIn, function(req,res) {
+	app.post('/get-badges', isLoggedIn, function(req,res) {
 		var address = req.param('bitcoin-address');
 		req.user.local.address =address;
 		req.user.save();
@@ -72,14 +72,14 @@ module.exports = function(app, passport) {
 		blockchain.getTotalSent(address, function (totalSent) {
 			if(totalSent > 00000001) {
 				//TODO create badge
-				console.log('sent some');
+				res.send('Total Sent: ' + totalSent);
 			}
 		});
 
 		blockchain.getTotalReceived(address, function (totalReceieved) {
 			if(totalReceieved > 00000001) {
 				//TODO create badge
-				console.log('received some');
+				res.send('Total Received: ' + totalReceived);
 			}
 		});
 
