@@ -69,22 +69,28 @@ module.exports = function(app, passport) {
 		req.user.local.address =address;
 		req.user.save();
 		// TODO add welcome badge
+
+		var sent = 0;
+		var rec = 0;
+
 		blockchain.getTotalSent(address, function (totalSent) {
 			if(totalSent > 00000001) {
 				//TODO create badge
-				res.send('Total Sent: ' + totalSent);
+				sent = totalSent;
 			}
 		});
 
 		blockchain.getTotalReceived(address, function (totalReceieved) {
 			if(totalReceieved > 00000001) {
 				//TODO create badge
-				res.send('Total Received: ' + totalReceived);
+				rec = totalReceieved;
 			}
 		});
 
 		res.render('profile.ejs', {
-			user : req.user // get the user out of session and pass to template
+			user : req.user,
+			sentVal: sent,
+			recVal: rec
 		});
 	})
 
