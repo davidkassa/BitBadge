@@ -2,4 +2,4 @@ BitBadge
 ========
 
 Badging platform for Bitcoins
-test
+test2
