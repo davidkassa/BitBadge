@@ -2,6 +2,6 @@
   "name": "BitBadge Badge",
   "description": "Welcome to BitBadge",
   "image": "http://bitbadge.herokuapp.com/images/welcomeBanner.png",
-  "criteria": "http://bitbadge.herokuapp.com/modules/badges/BitBadgeCriteria.txt",
-  "issuer": "http://bitbadge.herokuapp.com/modules/badges/issuer.json"
+  "criteria": "http://bitbadge.herokuapp.com/badges/BitBadgeCriteria.txt",
+  "issuer": "http://bitbadge.herokuapp.com/badges/issuer.json"
 }

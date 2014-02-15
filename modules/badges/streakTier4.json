@@ -1,0 +1,7 @@
+}
+  "name": "Streak Tier 4 Badge",
+  "description": "You spend coin 50 days in a row.",
+  "image": "http://bitbadge.herokuapp.com/images/streakTier4.png",
+  "criteria": "http://bitbadge.herokuapp.com/badges/streakTier4/criteria.txt",
+  "issuer": "http://bitbadge.herokuapp.com/badges/issuer.json"
+}

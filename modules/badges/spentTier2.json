@@ -1,0 +1,7 @@
+}
+  "name": "Spent Tier 2 Badge",
+  "description": "You spent 1 mBTC.",
+  "image": "http://bitbadge.herokuapp.com/images/spentTier2.png",
+  "criteria": "http://bitbadge.herokuapp.com/badges/spentTier2/criteria.txt",
+  "issuer": "http://bitbadge.herokuapp.com/badges/issuer.json"
+}
