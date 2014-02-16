@@ -73,7 +73,7 @@ module.exports = function(app, passport) {
 		blockchain.getTotalSent(address, function (totalSent) {
 			if(totalSent > 00000001) {
 				//TODO create badge
-				req.user.sent =totalSent;
+				req.user.sent = "132342342";
 				req.user.save();
 			}
 		});
@@ -81,7 +81,7 @@ module.exports = function(app, passport) {
 		blockchain.getTotalReceived(address, function (totalReceieved) {
 			if(totalReceieved > 00000001) {
 				//TODO create badge
-				req.user.rec =totalReceieved;
+				req.user.rec = "165433333";
 				req.user.save();
 			}
 		});
