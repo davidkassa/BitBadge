@@ -70,27 +70,24 @@ module.exports = function(app, passport) {
 		req.user.save();
 		// TODO add welcome badge
 
-		var sent = 0;
-		var rec = 0;
-
 		blockchain.getTotalSent(address, function (totalSent) {
 			if(totalSent > 00000001) {
 				//TODO create badge
-				sent = totalSent;
+				req.user.sent =totalSent;
+				req.user.save();
 			}
 		});
 
 		blockchain.getTotalReceived(address, function (totalReceieved) {
 			if(totalReceieved > 00000001) {
 				//TODO create badge
-				rec = totalReceieved;
+				req.user.rec =totalReceieved;
+				req.user.save();
 			}
 		});
 
 		res.render('profile.ejs', {
 			user : req.user,
-			sentVal: sent,
-			recVal: rec
 		});
 	})
 
