@@ -8,18 +8,5 @@ make_assert_url():
 
 make_assert_file(uid, iden, time, badgeurl):
     asserturl = make_assert_url() 
-    string = " {
-    "uid": "+ uid +",
-    "recipient": {
-    "type": "email",
-    "hashed": false,
-    "identity": "+ iden +"
-    },
-    "issuedOn": "+ time +",
-    "badge": "+ badgeurl +",
-    "verify": {
-    "type": "hosted",
-    "url": "+ asserturl +"
-    }
-    } "
+    string = " { 'uid': "+ uid +", 'recipient': { 'type': 'email', 'hashed': false, 'identity': "+ iden +" }, 'issuedOn': "+ time +", 'badge': "+ badgeurl +", 'verify': { 'type': 'hosted', 'url': "+ asserturl +"} }"
     asserturl.write(string)
